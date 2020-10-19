@@ -1,0 +1,45 @@
+
+.contenedor {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background: rgba(0,0,0,0.2);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.izquierda,
+.medio,
+.derecha {
+  width: 200px;
+  height: 200px;
+}
+
+.izquierda {
+  background: red;
+}
+
+.medio {
+  background: blue;
+}
+
+.derecha {
+  background: green;
+}
+.contenido {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* .contenedor {
+  display: flex;
+  background: rgba(0,0,0,0.4);
+}
+
+.foto {
+  width: 100px;
+    height: 100px;
+    background: red;
+} */
